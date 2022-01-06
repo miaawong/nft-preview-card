@@ -132,3 +132,6 @@ main {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
 }
+.heading {
+  display: none;
+}
