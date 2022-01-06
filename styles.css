@@ -24,7 +24,8 @@ main {
   height: 575px;
   border-radius: 16px;
   position: relative;
-  padding: 20px;
+  padding: 20px 40px;
+  box-sizing: border-box;
 }
 @media only screen and (min-width: 1440px) {
   .card {
@@ -58,7 +59,7 @@ main {
   right: 0;
 }
 .equilImgContainer {
-  margin: 0 20px;
+  margin: 0;
   position: relative;
   cursor: pointer;
 }
